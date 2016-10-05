@@ -11,3 +11,25 @@ OAuth กับ OpenID ถูกพูดถึงมากในการทำ
 1. กรมพัฒนาธุรกิจการค้า
 2. กรมการค้าภายใน
 3. กรมส่งเสริมการส่งออก
+
+```csharp
+if (a == b) {
+    a = b + 100;
+} else {
+    a = b;
+}
+```
+
+Or
+`Code block?`
+
+```html
+<div class='abc'>
+    <p>Hello</p>
+</div>
+```
+
+Test, test!
+* Authentication
+* Based
+* Code

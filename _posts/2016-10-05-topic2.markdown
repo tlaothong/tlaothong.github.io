@@ -1,6 +1,0 @@
----
-published: true
-title: Topic #2
-layout: post
----
-ลองดูเล่น ๆ

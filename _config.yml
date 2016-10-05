@@ -1,8 +1,8 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
-url: http://tlaothong.github.io
+url: http://tlaothong.sepodas.com
 title: Teerachai Laothong
 tagline: A log of developer life
-description: My awesome new site
+description: My sharing
 paginate: 5

@@ -60,7 +60,7 @@ npm --version
 1. เปิด command prompt ขึ้นมา
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter หลังพิมพ์เสร็จแล้วด้วยน้า)
 
-    ```
+    ```dos
     npm install -g harp
     ```
 3. เครื่องจะ download โปรแกรมมาติดตั้งให้โดยอัตโนมัติ ในระหว่างนั้นอาจจะมีข้อความขึ้นมายาว ๆ ไม่ต้องตกใจ
@@ -72,12 +72,12 @@ npm --version
 1. เปิด command prompt โดยเข้าไปที่ folder ที่มี web content ที่เราต้องการเรียกใช้งานบน browser
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter นะ)
 
-    ```
+    ```shell
     harp server
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว
 
-    ```
+    ```dos
     ------------
     Harp v0.20.3 – Chloi Inc. 2012–2015
     Your server is listening at http://localhost:9000/
@@ -115,7 +115,7 @@ npm --version
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว
 
-    ```
+    ```shell
     Starting up http-server, serving ./
     Available on:
       http://192.168.3.4:8080

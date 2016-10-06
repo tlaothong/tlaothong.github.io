@@ -59,6 +59,7 @@ npm --version
 
 1. เปิด command prompt ขึ้นมา
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter หลังพิมพ์เสร็จแล้วด้วยน้า)
+
     ```
     npm install -g harp
     ```
@@ -70,10 +71,12 @@ npm --version
 
 1. เปิด command prompt โดยเข้าไปที่ folder ที่มี web content ที่เราต้องการเรียกใช้งานบน browser
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter นะ)
+
     ```
     harp server
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว
+
     ```
     ------------
     Harp v0.20.3 – Chloi Inc. 2012–2015
@@ -94,6 +97,7 @@ npm --version
 
 1. เปิด command prompt ขึ้นมา
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter หลังพิมพ์เสร็จแล้วด้วยน้า)
+
     ```
     npm install -g http-server
     ```
@@ -105,10 +109,12 @@ npm --version
 
 1. เปิด command prompt โดยเข้าไปที่ folder ที่มี web content ที่เราต้องการเรียกใช้งานบน browser
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter นะ)
+
     ```
     http-server
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว
+
     ```
     Starting up http-server, serving ./
     Available on:

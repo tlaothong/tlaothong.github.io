@@ -126,8 +126,7 @@ npm --version
 
 8. More
 
-        <div>abc</div>
-{: .language-html}
+        <div>abc</div>{: .language-html}
 
 ## ส่งท้าย
 คงแนะนำเบื้องต้นว่ามีอะไรที่ใช้เป็น static web server บนเครื่องเราได้บ้าง จะเห็นว่าใช้งานไม่ยากเลย

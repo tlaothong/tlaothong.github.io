@@ -77,13 +77,11 @@ npm --version
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว  
         
-            ~~~~~~~~
         ------------
         Harp v0.20.3 – Chloi Inc. 2012–2015
         Your server is listening at http://localhost:9000/
         Press Ctl+C to stop the server
         ------------
-            ~~~~~~~~
 
 4. ลองเปิด web browser แล้วพิมพ์ `http://localhost:9000/` เข้าไปบน address bar หน้า web จะแสดงออกมา
 5. ถ้าไม่แสดงหน้าที่เราต้องการอาจจะต้องพิมพ์ชื่อไฟล์ต่อท้ายไปด้วย เช่น เราต้องการแสดงหน้า `page2.html`
@@ -115,14 +113,12 @@ npm --version
     http-server
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว  
-        
-~~~~~~~~
-            Starting up http-server, serving ./  
-            Available on:  
-                http://192.168.3.4:8080  
-                http://127.0.0.1:8080  
-            Hit CTRL-C to stop the server
-~~~~~~~~
+
+        Starting up http-server, serving ./  
+        Available on:  
+            http://192.168.3.4:8080  
+            http://127.0.0.1:8080  
+        Hit CTRL-C to stop the server
 
 4. ลองเปิด web browser แล้วพิมพ์ `http://localhost:8080/` เข้าไปบน address bar หน้า web จะแสดงออกมา
 5. ถ้าไม่แสดงหน้าที่เราต้องการอาจจะต้องพิมพ์ชื่อไฟล์ต่อท้ายไปด้วย เช่น เราต้องการแสดงหน้า `page2.html`

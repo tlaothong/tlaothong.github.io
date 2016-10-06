@@ -8,15 +8,7 @@ layout: default
   {{ content }}
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_identifier = "2016-10-05-introducing-oauth-and-openid.html";
-    (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://tlaothong.disqus.com.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
+{% include disqus.html %}
 
 <div class="related">
   <h2>Related Posts</h2>

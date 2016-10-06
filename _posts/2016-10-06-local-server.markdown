@@ -35,7 +35,7 @@ comments: true
 แต่ไม่ต้องกลัวว่าจะต้องเขียนโปรแกรมบน Node.js นะครับ เราแค่ใช้ npm ในการติดตั้งโปรแกรมที่ต้องการลงเครื่องเท่านั้นเอง
 ถ้าไม่แน่ใจว่ามีการติดตั้ง npm อยู่ในเครื่องแล้วหรือยัง สามารถทดลองพิมพ์คำสั่งต่อไปนี้ผ่าน command prompt ดูก่อนก็ได้
 
-```text
+```
 npm --version
 ```
 
@@ -60,7 +60,7 @@ npm --version
 1. เปิด command prompt ขึ้นมา
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter หลังพิมพ์เสร็จแล้วด้วยน้า)
 
-    ```bash
+    ```
     npm install -g harp
     ```
 3. เครื่องจะ download โปรแกรมมาติดตั้งให้โดยอัตโนมัติ ในระหว่างนั้นอาจจะมีข้อความขึ้นมายาว ๆ ไม่ต้องตกใจ
@@ -72,12 +72,12 @@ npm --version
 1. เปิด command prompt โดยเข้าไปที่ folder ที่มี web content ที่เราต้องการเรียกใช้งานบน browser
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter นะ)
 
-    ```sh
+    ```
     harp server
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว
 
-    ```zsh
+    ```text
     ------------
     Harp v0.20.3 – Chloi Inc. 2012–2015
     Your server is listening at http://localhost:9000/
@@ -98,7 +98,7 @@ npm --version
 1. เปิด command prompt ขึ้นมา
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter หลังพิมพ์เสร็จแล้วด้วยน้า)
 
-    ```sh
+    ```
     npm install -g http-server
     ```
 3. เครื่องจะ download โปรแกรมมาติดตั้งให้โดยอัตโนมัติ ในระหว่างนั้นอาจจะมีข้อความขึ้นมายาว ๆ ไม่ต้องตกใจ
@@ -110,16 +110,16 @@ npm --version
 1. เปิด command prompt โดยเข้าไปที่ folder ที่มี web content ที่เราต้องการเรียกใช้งานบน browser
 2. พิมพ์คำสั่งต่อไปนี้ (อย่าลืมกด enter นะ)
 
-    ```zsh
+    ```
     http-server
     ```
 3. เครื่องจะแสดงข้อความประมาณนี้ แสดงว่าพร้อมให้บริการแล้ว
 
-    ```bash
-    Starting up http-server, serving ./
-    Available on:
-      http://192.168.3.4:8080
-      http://127.0.0.1:8080
+    ```text
+    Starting up http-server, serving ./  
+    Available on:  
+      http://192.168.3.4:8080  
+      http://127.0.0.1:8080  
     Hit CTRL-C to stop the server
     ```
 4. ลองเปิด web browser แล้วพิมพ์ `http://localhost:8080/` เข้าไปบน address bar หน้า web จะแสดงออกมา

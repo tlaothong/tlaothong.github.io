@@ -43,8 +43,45 @@ comments: true
 
     ![Firewall is blocking][sql-firewall]
 
+5. เมื่อเข้าใช้งาน `SQL Server Management Studio` ได้เรียบร้อยแล้ว ก็สามารถสร้าง User ต่อได้เลย
+
+## สร้าง Login เข้า Database Server 
+ต่อไปเราจะสร้าง User ที่มีสิทธิ์เฉพาะ Database ที่เราต้องการทำงานด้วย จะเริ่มจากสร้าง login เข้า Server ก่อนซึ่งจะกล่าวถึงในหัวข้อนี้ และหัวข้อถัดไปจะกล่าวถึงการนำ login ดังกล่าวไปกำหนดให้ login เข้า Database ต่อไป
+
+1. ให้เลือกสร้าง `New Login...` จาก `Security` -> `Logins` ให้สังเกตว่า `Security` เป็น node ลูกที่ติดกับตัว Server เลยนะครับ ***ไม่ใช่* Security ที่อยู่ภายใต้ `Databases`** นะครับ
+
+    ![New Login][server-new-login]
+
+2. จะปรากฏ `SQL Statements` แบบนี้ ขึ้นมาแสดงบน Workspace
+
+        -- ===============================================
+        -- Create SQL Login template for Windows Azure SQL Database
+        -- ===============================================
+
+        CREATE LOGIN <SQL_login_name, sysname, login_name> 
+            WITH PASSWORD = '<password, sysname, Change_Password>' 
+        GO
+
+3. ให้เราแก้ไขดังนี้
+
+4. `SQL Statements` ที่แก้ไขแล้วจะเป็นประมาณนี้ 
+
+        -- ===============================================
+        -- Create SQL Login template for Windows Azure SQL Database
+        -- ===============================================
+
+        CREATE LOGIN catuser 
+            WITH PASSWORD = 'C@t4P@ssw0rd' 
+        GO
+
+5. แล้วสั่ง `Execute`
+
+    ![Execute New Login][mgr-studio-execute-new-login]
+
+
 [db-blade]: /imgs/azure-sql-db-blade.png "From Azure Management Portal"
 [db-server-name]: /imgs/azure-sql-db-server-name.png "From Azure Management Portal"
 [mgr-studio-login]: /imgs/sql-mgr-studio-login.png "SQL Server Management Studio login screen"
 [sql-firewall]: /imgs/azure-sql-firewall-blocked.png "Firewall rule is not allowed to access the DB Server"
-
+[server-new-login]: /imgs/sql-mgr-studio-new-login.png "New Login to DB Server"
+[mgr-studio-execute-new-login]: /imgs/sql-mgr-studio-execute-new-login.png "Execute New DB Server Login"

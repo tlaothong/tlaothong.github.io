@@ -3,6 +3,7 @@ published: true
 title: Database Logins
 layout: post
 comments: true
+tags: sql, azure, login, security
 ---
 ในการพัฒนา Application มีหลายครั้งที่เราสร้าง Database มาใช้ร่วมกัน จะได้ไม่ต้องวุ่นวายกับ Schema ที่เปลี่ยนไป
 แต่การใส่ Connection String ที่มี Username กับ Password ไว้ใน Source Code Repository อาจจะดูไม่ปลอดภัยเท่าใดนัก
@@ -63,6 +64,11 @@ comments: true
         GO
 
 3. ให้เราแก้ไขดังนี้
+
+    | Statement | อธิบาย | ตัวอย่าง  |
+    |---------------------------------------|---------------------------------------|--------------|
+    | <SQL_login_name, sysname, login_name> | ให้เลือกใส่ username สำหรับ login ที่ต้องการ       | catuser |
+    | <password, sysname, Change_Password> | ใส่ password สำหรับใช้ login   | C@t4P@ssw0rd |
 
 4. `SQL Statements` ที่แก้ไขแล้วจะเป็นประมาณนี้ 
 

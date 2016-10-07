@@ -4,6 +4,7 @@ title: Database Logins
 layout: post
 comments: true
 tags: sql, azure, login, security
+categories: sql, azure, login, security
 ---
 ในการพัฒนา Application มีหลายครั้งที่เราสร้าง Database มาใช้ร่วมกัน จะได้ไม่ต้องวุ่นวายกับ Schema ที่เปลี่ยนไป
 แต่การใส่ Connection String ที่มี Username กับ Password ไว้ใน Source Code Repository อาจจะดูไม่ปลอดภัยเท่าใดนัก

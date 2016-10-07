@@ -14,7 +14,7 @@ tags: sql, azure, login, security
 
 ## แนวทางที่เสนอ
 วิธีหลีกเลี่ยงอาจมีหลายแนวทาง ในหัวข้อนี้จะแนะนำการสร้าง User เฉพาะสำหรับ Application นั้น ๆ ขึ้นมา แล้วใช้ User นี้แทน `sa` ถ้ามีผู้ไม่หวังดีได้ User นี้ไป
-ก็จะจัดการอะไรต่าง ๆ ได้แค่ Database ตัวนั้น ๆ เท่านั้น ไม่ใช่กับ Server ทั้งเครื่อง และเราสามารถทิ้ง User ใน Database นั้นไปให้หมด แล้วสร้างขึ้นมาใหม่ได้โดยไม่กระทบกับ Application อื่น ๆ
+ก็จะจัดการอะไรต่าง ๆ ได้แค่ Database ตัวนั้น ๆ เท่านั้น ไม่ใช่กับ Server ทั้งเครื่อง และเราสามารถทิ้ง User ใน Database นั้นไปให้หมด แล้วสร้างขึ้นมาใหม่ได้โดยไม่กระทบกับ Application อื่นๆ
 
 ดังนั้นเราจะมาดูวิธีการต่อไปนี้
 
@@ -141,6 +141,7 @@ tags: sql, azure, login, security
 
     ![New User Completed][mgr-studio-execute-new-user-completed]
 
+
 ## ทดลองใช้ User ใหม่ login เข้า Database (SQL Server Management Studio)
 มีวิธีทดสอบที่จะนำมาแนะนำกันอยู่ 2 วิธี จะเลือกใช้วิธีนี้วิธีเดียวโดยไม่ต้องใช้วิธีถัดไปก็ได้ หรือจะลองทั้งสองวิธีก็ได้
 
@@ -177,7 +178,7 @@ tags: sql, azure, login, security
 [sql-firewall]: /imgs/azure-sql-firewall-blocked.png "Firewall rule is not allowed to access the DB Server"
 [server-new-login]: /imgs/sql-mgr-studio-new-login.png "New Login to a DB Server"
 [mgr-studio-execute-new-login]: /imgs/sql-mgr-studio-execute-new-login.png "Execute New DB Server Login"
-[mgr-studio-execute-new-login-completed]: imgs/sql-mgr-studio-completed-execute-new-login.png "Execute New DB Server Login Completed"
+[mgr-studio-execute-new-login-completed]: /imgs/sql-mgr-studio-completed-execute-new-login.png "Execute New DB Server Login Completed"
 [server-new-user]: /imgs/sql-mgr-studio-new-user.png "New User to the Database"
 [mgr-studio-execute-new-user]: /imgs/sql-mgr-studio-execute-new-user.png "Execute New User in the Database"
 [mgr-studio-execute-new-user-completed]: /imgs/sql-mgr-studio-completed-execute-new-user.png "Execute New User into the Database Completed"

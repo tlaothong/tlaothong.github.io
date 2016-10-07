@@ -84,10 +84,71 @@ tags: sql, azure, login, security
 
     ![Execute New Login][mgr-studio-execute-new-login]
 
+6. จะมี Message ที่หน้าต่าง `Messages` ด้านล่างลงมา บอกว่า `Command(s) completed successfully.` ดังภาพ จบขั้นตอนนี้
+
+    ![New Login Completed][mgr-studio-execute-new-login-completed]
+
+## สร้าง User ที่มีสิทธิ์เฉพาะ Database ที่ต้องการ
+หัวข้อนี้จะกล่าวถึงการนำ login เข้า Server ที่สร้างจากขั้นตอนที่แล้ว ไปสร้าง User ให้ใช้งาน Database ที่ต้องการได้
+
+1. ให้เลือกสร้าง `New User...` จาก `Databases / ชื่อ Database` -> `Security` -> `Users` ให้สังเกตว่า `Security` เป็น node ลูกของตัว `Database` ที่เราต้องการนะครับ
+
+    ![New User][server-new-user]
+
+2. จะปรากฏ `SQL Statements` แบบนี้ ขึ้นมาแสดงบน Workspace
+
+        -- =================================================
+        -- Create User as DBO template for Windows Azure SQL Database
+        -- =================================================
+        -- For login <login_name, sysname, login_name>, create a user in the database
+        CREATE USER <user_name, sysname, user_name>
+            FOR LOGIN <login_name, sysname, login_name>
+            WITH DEFAULT_SCHEMA = <default_schema, sysname, dbo>
+        GO
+
+        -- Add user to the database owner role
+        EXEC sp_addrolemember N'db_owner', N'<user_name, sysname, user_name>'
+        GO
+
+3. ให้เราแก้ไขดังนี้
+
+    | Statement | อธิบาย | ตัวอย่าง  |
+    |---------------------------------------|---------------------------------------|--------------|
+    | <user_name, sysname, user_name> | ตั้ง username ที่ต้องการเรียกใน database แนะนำให้ใช้ชื่อเดียวกับ login ในขั้นตอนที่แล้ว | catuser |
+    | <login_name, sysname, login_name> | ชื่อ login ที่ตั้งจากขั้นตอนที่แล้ว | catuser |
+    | <default_schema, sysname, dbo> | Schema ใน database ที่ต้องการให้เข้าถึงได้ หากต้องการให้ใช้ได้ทั้งฐานข้อมูลให้ใส่เป็น dbo | dbo |
+
+4. `SQL Statements` ที่แก้ไขแล้วจะเป็นประมาณนี้ 
+
+        -- =================================================
+        -- Create User as DBO template for Windows Azure SQL Database
+        -- =================================================
+        -- For login <login_name, sysname, login_name>, create a user in the database
+        CREATE USER catuser
+            FOR LOGIN catuser
+            WITH DEFAULT_SCHEMA = dbo
+        GO
+
+        -- Add user to the database owner role
+        EXEC sp_addrolemember N'db_owner', N'catuser'
+        GO
+
+5. แล้วสั่ง `Execute`
+
+    ![Execute New User][mgr-studio-execute-new-user]
+
+6. จะมี Message ที่หน้าต่าง `Messages` ด้านล่างลงมา บอกว่า `Command(s) completed successfully.` ดังภาพ จบขั้นตอนนี้
+
+    ![New User Completed][mgr-studio-execute-new-user-completed]
+
 
 [db-blade]: /imgs/azure-sql-db-blade.png "From Azure Management Portal"
 [db-server-name]: /imgs/azure-sql-db-server-name.png "From Azure Management Portal"
 [mgr-studio-login]: /imgs/sql-mgr-studio-login.png "SQL Server Management Studio login screen"
 [sql-firewall]: /imgs/azure-sql-firewall-blocked.png "Firewall rule is not allowed to access the DB Server"
-[server-new-login]: /imgs/sql-mgr-studio-new-login.png "New Login to DB Server"
+[server-new-login]: /imgs/sql-mgr-studio-new-login.png "New Login to a DB Server"
 [mgr-studio-execute-new-login]: /imgs/sql-mgr-studio-execute-new-login.png "Execute New DB Server Login"
+[mgr-studio-execute-new-login-completed]: imgs/sql-mgr-studio-completed-execute-new-login.png "Execute New DB Server Login Completed"
+[server-new-user]: /imgs/sql-mgr-studio-new-user.png "New User to the Database"
+[mgr-studio-execute-new-user]: /imgs/sql-mgr-studio-execute-new-user.png "Execute New User in the Database"
+[mgr-studio-execute-new-user-completed]: imgs/sql-mgr-studio-completed-execute-new-user.png "Execute New User into the Database Completed"

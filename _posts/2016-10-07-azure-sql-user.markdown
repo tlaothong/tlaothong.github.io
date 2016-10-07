@@ -141,6 +141,35 @@ tags: sql, azure, login, security
 
     ![New User Completed][mgr-studio-execute-new-user-completed]
 
+## ทดลองใช้ User ใหม่ login เข้า Database (SQL Server Management Studio)
+มีวิธีทดสอบที่จะนำมาแนะนำกันอยู่ 2 วิธี จะเลือกใช้วิธีนี้วิธีเดียวโดยไม่ต้องใช้วิธีถัดไปก็ได้ หรือจะลองทั้งสองวิธีก็ได้
+
+1. เปิดโปรแกรม `SQL Server Management Studio` ขึ้นมา แล้วใส่ข้อมูลใน Dialogbox `Connect to Server` ด้วย username กับ password ที่เพิ่งตั้งมาใหม่ดังภาพตัวอย่าง
+
+    ![Connect to Server][mgr-studio-connect-2-server]
+
+2. กดปุ่ม `Options >>` เพื่อระบุ Database โดยเราจะเลือก Tab ด้านบนให้เป็น `Connection Properties` จะปรากฏหน้าจอดังภาพ
+
+    ![Connection Properties][mgr-studio-connection-properties]
+
+3. ใส่ชื่อ Database ของเราในช่อง `Connect to database` ดังภาพตัวอย่าง แล้วกดปุ่ม `Connect` เพื่อเข้าไปทำงานกับฐานข้อมูลได้เลย
+
+    ![Connect to Database][mgr-studio-connect-2-database]
+
+## ทดลองใช้ User ใหม่ login เข้า Database (Microsoft Visual Studio)
+มีวิธีทดสอบที่จะนำมาแนะนำกันอยู่ 2 วิธี จะเลือกใช้วิธีนี้วิธีเดียวโดยไม่ต้องใช้วิธีก่อนหน้าก็ได้ หรือจะลองทั้งสองวิธีก็ได้
+
+1. ไปที่ Menu `Server Explorer` แล้วกด icon `Connect to Database` ดังภาพ
+
+    ![Connect to Database in Visual Studio][vs-connect-2-db]
+
+2. ใส่ข้อมูลของ Server, Database ที่ต้องการใช้งาน และ username กับ password ที่เพิ่งตั้งมาใหม่ แล้วกดปุ่ม `Test Connection` เพื่อทดสอบว่าใช้งานได้หรือไม่ หรือกดปุ่ม `OK` เพื่อเข้าไปทำงานกับฐานข้อมูลต่อไปก็ได้
+
+    ![Logon to Server dialog in Visual Studio][vs-logon-2-db]
+
+
+## สรุป
+และทั้งหมดนี้ก็คือขั้นตอนการสร้าง User ขึ้นมาเฉพาะสำหรับใช้งาน Database ตัวใด ตัวหนึ่ง ในขั้นตอนของการพัฒนา Application จะได้ไม่ต้อง Share Master User เช่น `sa` กันอีกต่อไป
 
 [db-blade]: /imgs/azure-sql-db-blade.png "From Azure Management Portal"
 [db-server-name]: /imgs/azure-sql-db-server-name.png "From Azure Management Portal"
@@ -151,4 +180,9 @@ tags: sql, azure, login, security
 [mgr-studio-execute-new-login-completed]: imgs/sql-mgr-studio-completed-execute-new-login.png "Execute New DB Server Login Completed"
 [server-new-user]: /imgs/sql-mgr-studio-new-user.png "New User to the Database"
 [mgr-studio-execute-new-user]: /imgs/sql-mgr-studio-execute-new-user.png "Execute New User in the Database"
-[mgr-studio-execute-new-user-completed]: imgs/sql-mgr-studio-completed-execute-new-user.png "Execute New User into the Database Completed"
+[mgr-studio-execute-new-user-completed]: /imgs/sql-mgr-studio-completed-execute-new-user.png "Execute New User into the Database Completed"
+[mgr-studio-connect-2-server]: /imgs/sql-mgr-studio-connect-2-server.png "Connect to Server in SQL Server Management Studio"
+[mgr-studio-connection-properties]: /imgs/sql-mgr-studio-connection-properties.png "Connection Properties in dialogbox Connect to Server in SQL Server Management Studio"
+[mgr-studio-connect-2-database]: /imgs/sql-mgr-studio-connect-2-database.png "Specify the Database Name"
+[vs-connect-2-db]: /imgs/vs-svr-explorer-connect-2-db.png "Connect to Database in Server Explorer"
+[vs-logon-2-db]: /imgs/vs-logon-2-db.png "Logon to the server dialogbox in Visual Studio"

@@ -3,8 +3,7 @@ published: true
 title: Azure SQL Server Firewall and Connection Problems
 layout: post
 comments: true
-tags: sql, azure, login, firewall
-categories: sql, azure, login, firewall
+categories: azure
 ---
 ถ้าเราใช้ SQL Server Database บน Microsoft Azure แล้วต้องการเข้าไปทำงานบน Database จากในเครื่องของเรา
 บางครั้งอาจจะไม่สามารถ connect เข้าไปได้ ลองมาดูกันว่าสาเหตุมักจะมาจากอะไร แล้วจะแก้ไขได้อย่างไร

@@ -3,7 +3,7 @@ published: true
 title: Local Web Servers
 layout: post
 comments: true
-categories: web, local server, npm, harp, http-server
+categories: web
 ---
 บางครั้งเราต้องการสร้าง static web content แต่ต้องการเรียกใช้ผ่าน browser เหมือนเรียกมาจาก web server
 ไม่ใช่เรียกจากการ double click ที่ไฟล์ html ที่ต้องการ

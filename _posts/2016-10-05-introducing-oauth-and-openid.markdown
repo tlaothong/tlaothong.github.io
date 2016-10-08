@@ -3,7 +3,7 @@ published: true
 title: Introducing OAuth and OpenID
 layout: post
 comments: true
-categories: oauth, security, token, openid
+categories: security
 ---
 OAuth กับ OpenID ถูกพูดถึงมากในการทำ Token-Based Authentication เราจะมาทำความเข้าใจว่ามันคืออะไรก่อน แล้วค่อยลงรายละเอียดเชิงเทคนิคในโอกาสต่อไป
 

@@ -41,7 +41,7 @@ categories: azure
     ![Login to Management Studio][mgr-studio-login]
 
 4. หากมีปัญหาในการ login เช่น มีข้อความแปลก ๆ แจ้งขึ้นมาดังภาพด้านล่าง หมายความว่า Database บน `Azure` ไม่ได้อนุญาตให้เราเข้าถึงได้ ซึ่งแก้ได้ด้วยการเปิด firewall ของ Database ซึ่งวิธีการดูได้จาก
-    บทความ [Azure SQL Server Firewall and Connection Problems](#)
+    บทความ [Azure SQL Server Firewall and Connection Problems](/azure/2016/10/08/azure-sql-firewall.html)
 
     ![Firewall is blocking][sql-firewall]
 

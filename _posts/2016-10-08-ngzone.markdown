@@ -1,0 +1,10 @@
+---
+published: false
+title: NgZone in Angular 2
+layout: post
+comments: false
+categories: angular2
+---
+ใน Angular 2 ยกเลิกการใช้งาน Scope ออกไปอย่างไร้ร่องรอย
+แต่ยังมีการใช้งาน context ที่ติดต่อภายนอกอยู่
+ใช้แทน $scope.apply

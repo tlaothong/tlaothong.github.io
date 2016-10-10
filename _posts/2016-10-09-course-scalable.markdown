@@ -1,6 +1,6 @@
 ---
 published: true
-title: Course: Designing Scalable Web Application
+title: (Course) Designing Scalable Web Application
 layout: post
 comments: true
 categories: course

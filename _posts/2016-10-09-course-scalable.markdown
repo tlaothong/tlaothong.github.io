@@ -7,6 +7,10 @@ categories: course
 ---
 
 # A Complementary Course Material
+ใช้ประกอบการเรียนการสอนในห้อง Training ที่ Software Park ครับ
+
+<!-- break -->
+
 
 ## Tools
 * [Star UML 2](http://staruml.io/)

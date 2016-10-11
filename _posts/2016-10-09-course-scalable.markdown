@@ -11,7 +11,6 @@ categories: course
 
 <!-- break -->
 
-
 ## Tools
 * [Star UML 2](http://staruml.io/)
 
@@ -21,3 +20,6 @@ categories: course
 * [Chapter 3: NoSQL](https://dl.dropboxusercontent.com/u/17002098/tlaothong/calepin/slides/m03.pdf)
 * [Chatper 4: NoSQL Architecture](https://dl.dropboxusercontent.com/u/17002098/tlaothong/calepin/slides/m14.pdf)
 
+## Excercise: Documenting your Architecture
+* Visit: [https://www.manning.com/](https://www.manning.com/).
+* Write down its Architecture that you think might be appropriate.

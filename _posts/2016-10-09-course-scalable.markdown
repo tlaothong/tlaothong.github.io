@@ -28,3 +28,7 @@ categories: course
 
 ## Excercise: Getting Started with Load Testing Tools
 * Install Fiddler and Stres Stimulus.
+
+## Excercise: Website Load Testing
+* Links to the Website [http://web2test.azurewebsites.net](http://web2test.azurewebsites.net)
+* Source code on github [https://github.com/tlaothong/lab-cat-scalable](https://github.com/tlaothong/lab-cat-scalable)

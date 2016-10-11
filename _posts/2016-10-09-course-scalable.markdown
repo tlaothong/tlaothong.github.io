@@ -13,6 +13,8 @@ categories: course
 
 ## Tools
 * [Star UML 2](http://staruml.io/)
+* [Fiddler](http://www.telerik.com/fiddler)
+* [Stress Stimulus](http://www.stresstimulus.com/)
 
 ## Hands-Out
 * [Chapter 1: Scalability](https://dl.dropboxusercontent.com/u/17002098/tlaothong/calepin/slides/m01.pdf)
@@ -23,3 +25,6 @@ categories: course
 ## Excercise: Documenting your Architecture
 * Visit: [https://www.manning.com/](https://www.manning.com/).
 * Write down its Architecture that you think might be appropriate.
+
+## Excercise: Getting Started with Load Testing Tools
+* Install Fiddler and Stres Stimulus.

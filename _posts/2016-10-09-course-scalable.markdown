@@ -32,3 +32,8 @@ categories: course
 ## Excercise: Website Load Testing
 * Links to the Website [http://web2test.azurewebsites.net](http://web2test.azurewebsites.net)
 * Source code on github [https://github.com/tlaothong/lab-swp-scalable](https://github.com/tlaothong/lab-swp-scalable)
+
+## Excercise: NoSQL Databases
+* Key-Value: Try redis using [http://try.redis.io](http://try.redis.io)
+* Graph Database: Try neo4j [http://console.neo4j.org](http://console.neo4j.org)
+* Column Database: Try Cassandra [http://www.planetcassandra.org/try-cassandra](http://www.planetcassandra.org/try-cassandra)

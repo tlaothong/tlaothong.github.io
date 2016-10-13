@@ -37,3 +37,12 @@ categories: course
 * Key-Value: Try redis using [http://try.redis.io](http://try.redis.io)
 * Graph Database: Try neo4j [http://console.neo4j.org](http://console.neo4j.org)
 * Column Database: Try Cassandra [http://www.planetcassandra.org/try-cassandra](http://www.planetcassandra.org/try-cassandra)
+
+
+## SOA Additional Readings
+![SOA Ref Arch](https://thumbs.dreamstime.com/z/soa-layer-architecture-vector-illustration-service-oriented-different-components-like-presentation-business-process-32606653.jpg)
+
+* [Overview of the SOA RA Layers](https://www.opengroup.org/soa/source-book/soa_refarch/layers.htm)
+* [Integration Layer](https://www.opengroup.org/soa/source-book/soa_refarch/integration.htm)
+* For more information see [SOA Reference Architecture Technical Standard](https://www.opengroup.org/soa/source-book/soa_refarch/index.htm)
+

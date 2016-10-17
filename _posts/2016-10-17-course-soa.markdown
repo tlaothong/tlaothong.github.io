@@ -18,5 +18,5 @@ categories: course
 > Microsoft Dev Essentials: [aka.ms/vsdevhelp](http://aka.ms/vsdevhelp)
 
 ## Workshop: Implementing Web Services
-* Github URL: [https://github.com/tlaothong/lab-swpark-ws](https://github.com/tlaothong/lab-swpark-ws)
+* Github URL: [https://github.com/tlaothong/lab-swp-ws-kiatnakin](https://github.com/tlaothong/lab-swp-ws-kiatnakin)
     * Looking for Excercise2.cs.

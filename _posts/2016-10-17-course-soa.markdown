@@ -9,6 +9,8 @@ categories: course
 # A Complementary Course Material
 ใช้ประกอบการอบรม Implementing Web Services using .NET Technology
 
+<!-- break -->
+
 ## Worshop: Consumer Web Services
 * URL: http://lab-swpark-ws1.azurewebsites.net
 * Simple ASP.NET Web Service: http://lab-swpark-ws1.azurewebsites.net/SimpleWebService.asmx

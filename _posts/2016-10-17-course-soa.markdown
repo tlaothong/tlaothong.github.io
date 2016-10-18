@@ -22,3 +22,11 @@ categories: course
 ## Workshop: Implementing Web Services
 * Github URL: [https://github.com/tlaothong/lab-swp-ws-kiatnakin](https://github.com/tlaothong/lab-swp-ws-kiatnakin)
     * Looking for Excercise2.cs.
+
+
+## SOA Additional Readings
+![SOA Ref Arch](https://thumbs.dreamstime.com/z/soa-layer-architecture-vector-illustration-service-oriented-different-components-like-presentation-business-process-32606653.jpg)
+
+* [Overview of the SOA RA Layers](https://www.opengroup.org/soa/source-book/soa_refarch/layers.htm)
+* [Integration Layer](https://www.opengroup.org/soa/source-book/soa_refarch/integration.htm)
+* For more information see [SOA Reference Architecture Technical Standard](https://www.opengroup.org/soa/source-book/soa_refarch/index.htm)

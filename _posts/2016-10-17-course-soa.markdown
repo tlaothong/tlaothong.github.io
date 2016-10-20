@@ -23,6 +23,19 @@ categories: course
 * Github URL: [https://github.com/tlaothong/lab-swp-ws-kiatnakin](https://github.com/tlaothong/lab-swp-ws-kiatnakin)
     * Looking for Excercise2.cs.
 
+## Workshop: Hosting WCF Services
+* Github URL: [https://github.com/tlaothong/lab-swpark-ws](https://github.com/tlaothong/lab-swpark-ws)
+    * Looking for folder Lab4Orchestration.
+
+## Workshop: Orchestrating WCF Services
+* Github URL: [https://github.com/tlaothong/lab-swpark-ws](https://github.com/tlaothong/lab-swpark-ws)
+    * Continue from the previous lab.
+
+
+## ASP.NET Links
+* [ASP.NET Official Site](http://www.asp.net)
+* [ASP.NET MVC](http://www.asp.net/mvc)
+* [ASP.NET Web Api](http://www.asp.net/web-api)
 
 ## SOA Additional Readings
 ![SOA Ref Arch](https://thumbs.dreamstime.com/z/soa-layer-architecture-vector-illustration-service-oriented-different-components-like-presentation-business-process-32606653.jpg)

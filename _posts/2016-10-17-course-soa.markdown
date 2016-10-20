@@ -24,11 +24,11 @@ categories: course
     * Looking for Excercise2.cs.
 
 ## Workshop: Hosting WCF Services
-* Github URL: [https://github.com/tlaothong/lab-swpark-ws](https://github.com/tlaothong/lab-swpark-ws)
+* Github URL: [https://github.com/tlaothong/lab-swp-ws-kiatnakin](https://github.com/tlaothong/lab-swp-ws-kiatnakin)
     * Looking for folder Lab4Orchestration.
 
 ## Workshop: Orchestrating WCF Services
-* Github URL: [https://github.com/tlaothong/lab-swpark-ws](https://github.com/tlaothong/lab-swpark-ws)
+* Github URL: [https://github.com/tlaothong/lab-swp-ws-kiatnakin](https://github.com/tlaothong/lab-swp-ws-kiatnakin)
     * Continue from the previous lab.
 
 

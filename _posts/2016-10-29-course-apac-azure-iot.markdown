@@ -9,6 +9,8 @@ categories: course
 # A Complementary Course Material
 ใช้ประกอบการอบรมและทำ workshop ในงาน APAC Azure IoT Weekend - Khon Kaen
 
+<!-- break -->
+
 Workshop material's available at: [https://www.gitbook.com/book/tlaothong/azure-iot-workshop](https://www.gitbook.com/book/tlaothong/azure-iot-workshop)
 
 For the workshop you might need to register to: [Microsoft Dev Essentials](http://aka.ms/vsdevhelp)

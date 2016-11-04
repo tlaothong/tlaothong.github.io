@@ -9,6 +9,8 @@ categories: course
 # A Complementary Course Material
 ใช้ประกอบการอบรมและทำ workshop สำหรับ Ionic2 Bootcamp
 
+<!-- break -->
+
 Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp/content/](https://tlaothong.gitbooks.io/ionic2-bootcamp/content/)
 
 # Setup Links

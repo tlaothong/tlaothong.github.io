@@ -18,3 +18,6 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 * Install [Ionic2](http://ionicframework.com/docs/v2/getting-started/installation/)
 * [Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/)
 * [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/)
+
+# Resources
+[Ionic2 Document](http://ionicframework.com/docs/v2/)

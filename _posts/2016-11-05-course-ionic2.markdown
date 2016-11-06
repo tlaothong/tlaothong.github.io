@@ -29,7 +29,7 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 ## การเตรียมตัว
 
 1. เข้าไปที่ [https://github.com/tlaothong/ionic2-bootcamp](https://github.com/tlaothong/ionic2-bootcamp) ที่มีทั้ง demo และ source ที่ใช้สำหรับการบ้าน
-* ตัว demo อยู่ใน folder demo / firstdem ซึ่งถ้าเข้าไปที่ folder demo จะบอกวิธีการเตรียม source code เพื่อให้ run firstdem (หรือตัวอย่างอื่น ๆ ได้)
+2. ตัว demo อยู่ใน folder demo / firstdem ซึ่งถ้าเข้าไปที่ folder demo จะบอกวิธีการเตรียม source code เพื่อให้ run firstdem (หรือตัวอย่างอื่น ๆ ได้)
 
 ## รายละเอียด
 

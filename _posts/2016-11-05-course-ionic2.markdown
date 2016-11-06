@@ -20,9 +20,9 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 * [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/)
 
 # Resources
-[Ionic2 Document](http://ionicframework.com/docs/v2/)
-[Binding Syntax (ฉบับย่อ)](http://learnangular2.com/templates/)
-[Angular2 Template Syntax (Binding ฉบับเต็ม)](https://angular.io/docs/ts/latest/guide/template-syntax.html)
+* [Ionic2 Document](http://ionicframework.com/docs/v2/)
+* [Binding Syntax (ฉบับย่อ)](http://learnangular2.com/templates/)
+* [Angular2 Template Syntax (Binding ฉบับเต็ม)](https://angular.io/docs/ts/latest/guide/template-syntax.html)
 
 # Assignment #1
 
@@ -37,7 +37,7 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 
     ionic start assignment1 tabs --v2
 
-* ใน folder `src/pages/home` ให้เปิดไฟล์ `home.ts` ประกาศตัวแปรชื่อ `actor` มากำหนดค่าที่ได้มาจาก source code ในไฟล์ที่ download มาชื่อ `actor.json` ด้านล่างคือตัวอย่างที่ตัดมาบางตอน
+2. ใน folder `src/pages/home` ให้เปิดไฟล์ `home.ts` ประกาศตัวแปรชื่อ `actor` มากำหนดค่าที่ได้มาจาก source code ในไฟล์ที่ download มาชื่อ `actor.json` ด้านล่างคือตัวอย่างที่ตัดมาบางตอน
 
     public actor = [
         {
@@ -47,14 +47,14 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
         ...
     ];
 
-* ใน folder เดียวกัน (`src/pages/home`) ให้เปิดไฟล์ `home.html` แล้วดำเนินการต่อเพื่อให้ได้ผลลัพธ์ต่อไปนี้
-* สร้าง list เพื่อนำข้อมูลในตัวแปร `actor` มาแสดงในหน้า home ให้มีความสวยงามตามสมควร
-* ข้อมูล `mentalScore` ของแต่ละ `actor` ให้แสดงโดยใช้ `badge` และแสดงสีตามค่าตัวเลขโดยถ้าตัวเลขต่ำกว่า 90 ให้มีสีแบบ `danger` แต่ถ้า 90 ขึ้นไปให้ใช้สีแบบ `secondary`
+3. ใน folder เดียวกัน (`src/pages/home`) ให้เปิดไฟล์ `home.html` แล้วดำเนินการต่อเพื่อให้ได้ผลลัพธ์ต่อไปนี้
+4. สร้าง list เพื่อนำข้อมูลในตัวแปร `actor` มาแสดงในหน้า home ให้มีความสวยงามตามสมควร
+5. ข้อมูล `mentalScore` ของแต่ละ `actor` ให้แสดงโดยใช้ `badge` และแสดงสีตามค่าตัวเลขโดยถ้าตัวเลขต่ำกว่า 90 ให้มีสีแบบ `danger` แต่ถ้า 90 ขึ้นไปให้ใช้สีแบบ `secondary`
 
 # Preparation for the next week
 1. Setup Visual Studio
     * มีคำแนะนำเพิ่มเติมที่ดูได้จาก [Visual Studio Tools](http://blog.ionic.io/visual-studio-tools-for-apache-cordova/?_ga=1.95307038.38020642.1478473497)
-* Setup Android SDK or iOS SDK (might need Mac)
+2. Setup Android SDK or iOS SDK (might need Mac)
     * ภาพรวมการ setup บนเครื่อง Windows ดูได้จาก [Windows Setup](http://ionicframework.com/docs/v2/resources/platform-setup/windows-setup.html)
     * รายละเอียดของการติดตั้ง Android SDK [Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/)
     * สำหรับเครื่อง Mac อาจติดตั้ง [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/)

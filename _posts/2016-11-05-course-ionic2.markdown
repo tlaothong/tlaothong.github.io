@@ -25,10 +25,14 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 [Angular2 Template Syntax (Binding ฉบับเต็ม)](https://angular.io/docs/ts/latest/guide/template-syntax.html)
 
 # Assignment #1
+
 ## การเตรียมตัว
+
 1. เข้าไปที่ [https://github.com/tlaothong/ionic2-bootcamp](https://github.com/tlaothong/ionic2-bootcamp) ที่มีทั้ง demo และ source ที่ใช้สำหรับการบ้าน
 * ตัว demo อยู่ใน folder demo / firstdem ซึ่งถ้าเข้าไปที่ folder demo จะบอกวิธีการเตรียม source code เพื่อให้ run firstdem (หรือตัวอย่างอื่น ๆ ได้)
+
 ## รายละเอียด
+
 1. สร้าง ionic 2 application โดยใช้ template `tabs` ตั้งชื่อ project ตามใจ สำหรับคำสั่งตัวอย่างตั้งชื่อว่า assignment1
 
     ```

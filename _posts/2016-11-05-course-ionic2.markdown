@@ -37,9 +37,9 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 
         ionic start assignment1 tabs --v2
 
-2. ใน folder `src/pages/home` ให้เปิดไฟล์ `home.ts` ประกาศตัวแปรชื่อ `actor` มากำหนดค่าที่ได้มาจาก source code ในไฟล์ที่ download มาชื่อ `actor.json` ด้านล่างคือตัวอย่างที่ตัดมาบางตอน
+2. ใน folder `src/pages/home` ให้เปิดไฟล์ `home.ts` ประกาศตัวแปรชื่อ `actors` มากำหนดค่าที่ได้มาจาก source code ในไฟล์ที่ download มาชื่อ `actor.json` ด้านล่างคือตัวอย่างที่ตัดมาบางตอน
 
-        public actor = [
+        public actors = [
             {
                 "id": 1,
                 ...
@@ -48,7 +48,7 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
         ];
 
 3. ใน folder เดียวกัน (`src/pages/home`) ให้เปิดไฟล์ `home.html` แล้วดำเนินการต่อเพื่อให้ได้ผลลัพธ์ต่อไปนี้
-4. สร้าง list เพื่อนำข้อมูลในตัวแปร `actor` มาแสดงในหน้า home ให้มีความสวยงามตามสมควร
+4. สร้าง list เพื่อนำข้อมูลในตัวแปร `actors` มาแสดงในหน้า home ให้มีความสวยงามตามสมควร (จะใช้ `card` ช่วยหรือไม่ก็ได้)
 5. ข้อมูล `mentalScore` ของแต่ละ `actor` ให้แสดงโดยใช้ `badge` และแสดงสีตามค่าตัวเลขโดยถ้าตัวเลขต่ำกว่า 90 ให้มีสีแบบ `danger` แต่ถ้า 90 ขึ้นไปให้ใช้สีแบบ `secondary`
 
 # Preparation for the next week

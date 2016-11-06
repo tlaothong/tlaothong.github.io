@@ -35,17 +35,17 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 
 1. สร้าง ionic 2 application โดยใช้ template `tabs` ตั้งชื่อ project ตามใจ สำหรับคำสั่งตัวอย่างตั้งชื่อว่า assignment1
 
-    ionic start assignment1 tabs --v2
+        ionic start assignment1 tabs --v2
 
 2. ใน folder `src/pages/home` ให้เปิดไฟล์ `home.ts` ประกาศตัวแปรชื่อ `actor` มากำหนดค่าที่ได้มาจาก source code ในไฟล์ที่ download มาชื่อ `actor.json` ด้านล่างคือตัวอย่างที่ตัดมาบางตอน
 
-    public actor = [
-        {
-            "id": 1,
+        public actor = [
+            {
+                "id": 1,
+                ...
+            },
             ...
-        },
-        ...
-    ];
+        ];
 
 3. ใน folder เดียวกัน (`src/pages/home`) ให้เปิดไฟล์ `home.html` แล้วดำเนินการต่อเพื่อให้ได้ผลลัพธ์ต่อไปนี้
 4. สร้าง list เพื่อนำข้อมูลในตัวแปร `actor` มาแสดงในหน้า home ให้มีความสวยงามตามสมควร

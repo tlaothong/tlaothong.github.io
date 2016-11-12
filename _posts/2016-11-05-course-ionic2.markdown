@@ -24,6 +24,18 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 * [Binding Syntax (ฉบับย่อ)](http://learnangular2.com/templates/)
 * [Angular2 Template Syntax (Binding ฉบับเต็ม)](https://angular.io/docs/ts/latest/guide/template-syntax.html)
 
+# Workshop #2
+* Execute the following command to create a tutorial project:
+
+        ```
+        ionic start workshop2 tutorial --v2
+        ```
+
+* Run and explore the source code
+
+# Workshop #3
+* [Ionic 2 Conference App](https://github.com/driftyco/ionic-conference-app)
+
 # Assignment #1
 
 ## การเตรียมตัว

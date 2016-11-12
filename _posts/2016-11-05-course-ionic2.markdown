@@ -27,9 +27,7 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 # Workshop #2
 * Execute the following command to create a tutorial project:
 
-        ```
         ionic start workshop2 tutorial --v2
-        ```
 
 * Run and explore the source code
 

@@ -83,11 +83,11 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
         ionic start assignment2 sidemenu --v2
 
 2. ทำขั้นตอนต่าง ๆ ตาม assignment1 คราวที่แล้ว (Assignment #1)
-* สร้างหน้า `person` เพิ่มใน project โดยใช้ คำสั่ง (ใน folder ของ project)
+3. สร้างหน้า `person` เพิ่มใน project โดยใช้ คำสั่ง (ใน folder ของ project)
 
         ionic g page person
 
-* ดำเนินการต่อเพื่อให้รายการในหน้า `home` สามารถกดแล้วมาแสดงรายละเอียดข้อมูลที่กดในหน้า `person` ได้อย่างถูกต้อง
+4. ดำเนินการต่อเพื่อให้รายการในหน้า `home` สามารถกดแล้วมาแสดงรายละเอียดข้อมูลที่กดในหน้า `person` ได้อย่างถูกต้อง
 
 # Preparation for the next week
 1. Setup Visual Studio

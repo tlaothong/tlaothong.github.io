@@ -66,6 +66,29 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 4. สร้าง list เพื่อนำข้อมูลในตัวแปร `actors` มาแสดงในหน้า home ให้มีความสวยงามตามสมควร (จะใช้ `card` ช่วยหรือไม่ก็ได้)
 5. ข้อมูล `mentalScore` ของแต่ละ `actor` ให้แสดงโดยใช้ `badge` และแสดงสีตามค่าตัวเลขโดยถ้าตัวเลขต่ำกว่า 90 ให้มีสีแบบ `danger` แต่ถ้า 90 ขึ้นไปให้ใช้สีแบบ `secondary`
 
+# Assignment #2
+
+## การเตรียมตัว
+
+1. ใช้คำสั่งต่อไปนี้เพื่อสร้าง tutorial project:
+
+        ionic start workshophome tutorial --v2
+
+* ลองศึกษา source code และเรียกใช้งาน เพื่อดูว่ามีการรับ-ส่งข้อมูลระหว่างหน้าอย่างไร
+
+## รายละเอียด
+
+1. สร้าง ionic 2 application โดยใช้ template `sidemenu` ตั้งชื่อ project ตามใจ สำหรับคำสั่งตัวอย่างตั้งชื่อว่า assignment2
+
+        ionic start assignment2 sidemenu --v2
+
+2. ทำขั้นตอนต่าง ๆ ตาม assignment1 คราวที่แล้ว (Assignment #1)
+* สร้างหน้า `person` เพิ่มใน project โดยใช้ คำสั่ง (ใน folder ของ project)
+
+        ionic g page person
+
+* ดำเนินการต่อเพื่อให้รายการในหน้า `home` สามารถกดแล้วมาแสดงรายละเอียดข้อมูลที่กดในหน้า `person` ได้อย่างถูกต้อง
+
 # Preparation for the next week
 1. Setup Visual Studio
     * มีคำแนะนำเพิ่มเติมที่ดูได้จาก [Visual Studio Tools](http://blog.ionic.io/visual-studio-tools-for-apache-cordova/?_ga=1.95307038.38020642.1478473497)

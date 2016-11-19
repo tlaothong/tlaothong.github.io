@@ -23,6 +23,7 @@ Workshop material's available at: [https://tlaothong.gitbooks.io/ionic2-bootcamp
 * [Ionic2 Document](http://ionicframework.com/docs/v2/)
 * [Binding Syntax (ฉบับย่อ)](http://learnangular2.com/templates/)
 * [Angular2 Template Syntax (Binding ฉบับเต็ม)](https://angular.io/docs/ts/latest/guide/template-syntax.html)
+* [Cordova Plugin Development Guide](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
 
 # Hands-Out
 * [Mobile Apps Landscape](https://dl.dropboxusercontent.com/u/19631829/ionic2/m01.pdf)

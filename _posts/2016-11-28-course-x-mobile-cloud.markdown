@@ -14,5 +14,9 @@ categories: course
 For the workshop you might need to register to: [Microsoft Dev Essentials](http://aka.ms/vsdevhelp)
 สำหรับคนที่ปิดหน้าต่าง ฺBenefit ไปแล้ว ให้เข้าไปที่ [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits)
 
+## Setting up Security Profile
+* [ionic Package - Security Profile](http://docs.ionic.io/services/profiles/)
+* [Android App KeyStore](http://docs.ionic.io/services/profiles/#android-app-keystore)
+
 ## Additional Resources:
 * [Microsoft Virtual Academy](https://mva.microsoft.com/)

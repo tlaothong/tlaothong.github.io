@@ -26,4 +26,6 @@ For the workshop you might need to register to: [Microsoft Dev Essentials](http:
 * [How to fix Ionic Script](https://github.com/driftyco/ionic-app-scripts/issues/389)
 
 ## Additional Resources:
+* [How to use MS Mobile App Service in Cordova](https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-cordova-how-to-use-client-library)
+* [JavaScript client for Azure Mobile App](https://github.com/azure/azure-mobile-apps-js-client/tree/cordova-2.0.0-rc1)
 * [Microsoft Virtual Academy](https://mva.microsoft.com/)

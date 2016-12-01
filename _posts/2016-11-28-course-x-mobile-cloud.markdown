@@ -17,6 +17,9 @@ For the workshop you might need to register to: [Microsoft Dev Essentials](http:
 ## Source Code
 * [Horse Racer on Github](https://github.com/horseracer/cross-platform-with-cloud)
 
+## Evaluation
+* Please give your feedback here [http://tinyurl.com/gtbsfhj](http://tinyurl.com/gtbsfhj)
+
 ## Setting up Security Profile
 * [ionic Package - Security Profile](http://docs.ionic.io/services/profiles/)
 * [Android App KeyStore](http://docs.ionic.io/services/profiles/#android-app-keystore)
